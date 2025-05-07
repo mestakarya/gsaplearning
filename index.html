@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <!-- <div id="background" style="position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 1; background-color: var(--biruMuda)"></div> -->
+    <div id="canvas" style="position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 2;">
+        <div id="canvasTop" style="width: 100%; height: 25%; background-color: var(--hitamAbu);">
+            <h1 style="text-align: center; font-size: 2.5rem; margin-top: 0;">Welcome to the Game</h1>
+            <p style="text-align: center; font-size: 1.5rem;">This is a simple game.</p>
+            <p style="text-align: center; font-size: 1.5rem;">Click the button below to start.</p>
+            <button id="startButton" style="display: block; margin: 0 auto; padding: 10px 20px; font-size: 1.5rem; background-color: var(--hijauNeon); border: none; border-radius: 5px;">Start Game</button>
+        </div>
+        <div id="canvasBot" style="width: 100%; height: 75%; background-color: var(--biruTua);display: flex; flex-direction: column;justify-content: center;align-items: center;">
+            
+            <h1 style="text-align: center; font-size: 2.5rem; margin-top: 0;">Welcome to the Game</h1>
+            <p style="text-align: center; font-size: 1.5rem;">This is a simple game.</p>
+            <p style="text-align: center; font-size: 1.5rem;">Click the button below to start.</p>
+            <button id="startButton" style="display: block; margin: 0 auto; padding: 10px 20px; font-size: 1.5rem; background-color: var(--biruTua); color: white; border: none; border-radius: 5px;">Start Game</button>
+        </div>
+    </div>
+    <div id="content" style="position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 3;"></div>
+    <script src="script.js"></script>
+</body>
+</html>

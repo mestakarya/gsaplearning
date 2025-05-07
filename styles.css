@@ -1,0 +1,18 @@
+/* style.css */
+:root {
+    /* Warna Solid */
+    --biruTua: #0246b1;
+    --biruMuda: #5de1ff;
+    --putihSaja: #fffffa;
+    --hitamAbu: #1a1a1a;
+    --hijauNeon: #b1ff45;
+  
+    /* Gradient */
+    --gradient-biruTuaMudaPutih: linear-gradient(
+      to right,
+      #0246b1 0%,
+      #5de1ff 30%,
+      #fffffa 60%
+    );
+  }
+  
